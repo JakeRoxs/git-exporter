@@ -1,0 +1,3 @@
+addons:
+  git-exporter:
+    image: ghcr.io/jakeroxs/git-exporter-{arch}

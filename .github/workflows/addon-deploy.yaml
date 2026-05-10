@@ -21,3 +21,5 @@ jobs:
       dispatch_token: ${{ secrets.DISPATCH_TOKEN }}
     with:
       version: "${{ github.event.release.tag_name }}"
+      repository: "git-exporter"
+      repository_edge: "git-exporter"
