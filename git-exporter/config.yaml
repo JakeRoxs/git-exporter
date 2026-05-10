@@ -9,7 +9,7 @@ arch:
 startup: once
 boot: manual
 init: false
-image: ghcr.io/poeschl-homeassistant-addons/git-exporter-{arch}
+image: ghcr.io/jakeroxs/git-exporter-{arch}
 hassio_api: true
 hassio_role: manager
 map:
