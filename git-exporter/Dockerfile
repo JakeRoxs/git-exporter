@@ -1,5 +1,5 @@
-ARG BUILD_FROM
-FROM $BUILD_FROM AS BUILD
+ARG BUILD_FROM=alpine:3.18
+FROM $BUILD_FROM AS build
 
 RUN apk add --no-cache \
 		'git=2.36.6-r0' \
@@ -11,7 +11,7 @@ RUN git config --global advice.detachedHead false && \
     git clone https://github.com/awslabs/git-secrets.git -b ${GIT_SECRET_VERSION} /git-secrets && \
     cd /git-secrets && make install
 
-FROM $BUILD_FROM AS RUNNING
+FROM $BUILD_FROM AS running
 
 RUN apk add --no-cache \
 			'git=2.36.6-r0' \
@@ -23,7 +23,7 @@ RUN apk add --no-cache \
 			'findutils=4.9.0-r0' \
 	&& pip3 install --no-cache-dir PyYAML==5.3.1 dotty-dict==1.3.1
 
-COPY --from=BUILD /usr/local/bin/git-secrets /usr/local/bin/git-secrets
+COPY --from=build /usr/local/bin/git-secrets /usr/local/bin/git-secrets
 
 COPY root /
 RUN chmod a+x /run.sh /utils/*
