@@ -26,17 +26,17 @@ Can be used to show your Home Assistant setup in public repositories.
 
 # Example
 
-For an example take a look at my own [Home Assistant configuration](https://github.com/Poeschl/home-assistant-config).
+For an example take a look at my own [Home Assistant configuration](https://github.com/JakeRoxs/home-assistant-config).
 The folders there are gettings synced with this addon.
 
 # Badge
 
 If you export your config with this addon and want to help me to spread it further, here is a badge you can embed in your README.
 
-[![Home Assistant Git Exporter](https://img.shields.io/badge/Powered%20by-Home%20Assistant%20Git%20Exporter-%23d32f2f)](https://github.com/Poeschl/Hassio-Addons/tree/main/git-exporter)
+[![Home Assistant Git Exporter](https://img.shields.io/badge/Powered%20by-Home%20Assistant%20Git%20Exporter-%23d32f2f)](https://github.com/JakeRoxs/git-exporter)
 
 ```markdown
-[![Home Assistant Git Exporter](https://img.shields.io/badge/Powered%20by-Home%20Assistant%20Git%20Exporter-%23d32f2f)](https://github.com/Poeschl/Hassio-Addons/tree/main/git-exporter)
+[![Home Assistant Git Exporter](https://img.shields.io/badge/Powered%20by-Home%20Assistant%20Git%20Exporter-%23d32f2f)](https://github.com/JakeRoxs/git-exporter)
 ```
 
 [stage-badge]: https://img.shields.io/badge/Addon%20stage-stable-green.svg
@@ -48,6 +48,6 @@ If you export your config with this addon and want to help me to spread it furth
 [repository-badge]: https://img.shields.io/badge/Add-repository-41BDF5?logo=home-assistant&style=for-the-badge
 [repository-url]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FJakeRoxs%2Fgit-exporter
 [install-badge]: https://img.shields.io/badge/Install%20on-Home%20Assistant-41BDF5?logo=home-assistant&style=for-the-badge
-[install-url]: https://my.home-assistant.io/redirect/supervisor_addon?addon=68413af6_git-exporter
+[install-url]: https://my.home-assistant.io/redirect/supervisor_addon?addon=fb181f38_git-exporter
 [donation-badge]: https://img.shields.io/badge/Buy%20me%20a%20coffee-%23d32f2f?logo=buy-me-a-coffee&style=for-the-badge&logoColor=white
 [donation-url]: https://www.buymeacoffee.com/Poeschl

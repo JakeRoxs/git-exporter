@@ -2,7 +2,7 @@ name: Home Assistant Git Exporter
 version: dev
 slug: git-exporter
 description: Export all of your Home Assistant configuration to a git repository of your choice
-url: https://github.com/Poeschl-HomeAssistant-Addons/git-exporter
+url: https://github.com/JakeRoxs/git-exporter
 arch:
   - armhf
   - armv7
