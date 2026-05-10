@@ -8,7 +8,7 @@ on:
 
 jobs:
   workflows:
-    uses: Jake/workflows/.github/workflows/labels.yaml@main
+    uses: JakeRoxs/workflows/.github/workflows/labels.yaml@main
     permissions:
       contents: write
       issues: write

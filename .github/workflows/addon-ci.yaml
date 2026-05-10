@@ -14,4 +14,4 @@ on:
 
 jobs:
   workflows:
-    uses: Jake/workflows/.github/workflows/addon-ci.yaml@main
+    uses: JakeRoxs/workflows/.github/workflows/addon-ci.yaml@main
