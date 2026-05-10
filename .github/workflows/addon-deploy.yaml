@@ -13,7 +13,7 @@ on:
 
 jobs:
   workflows:
-    uses: Poeschl-HomeAssistant-Addons/workflows/.github/workflows/addon-deploy.yaml@main
+    uses: Jake/workflows/.github/workflows/addon-deploy.yaml@main
     permissions:
       contents: read
       packages: write
