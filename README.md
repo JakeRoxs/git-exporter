@@ -16,13 +16,13 @@ Can be used to show your Home Assistant setup in public repositories.
 
 # Functionality
 
-* Export Home Assistant configuration.
-* Export Supervisor Addon configuration.
-* Export Lovelace configuration.
-* Export ESPHome configurations.
-* Export Node-RED flows.
-* Check for plaintext secrets based on your `secrets.yaml` file and common patterns.
-* Check for plaintext ip and addresses in your config.
+- Export Home Assistant configuration.
+- Export Supervisor Addon configuration.
+- Export Lovelace configuration.
+- Export ESPHome configurations.
+- Export Node-RED flows.
+- Check for plaintext secrets based on your `secrets.yaml` file and common patterns.
+- Check for plaintext ip and addresses in your config.
 
 # Example
 
@@ -39,20 +39,15 @@ If you export your config with this addon and want to help me to spread it furth
 [![Home Assistant Git Exporter](https://img.shields.io/badge/Powered%20by-Home%20Assistant%20Git%20Exporter-%23d32f2f)](https://github.com/Poeschl/Hassio-Addons/tree/main/git-exporter)
 ```
 
-
 [stage-badge]: https://img.shields.io/badge/Addon%20stage-stable-green.svg
 [aarch64-badge]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-badge]: https://img.shields.io/badge/amd64-yes-green.svg
 [armhf-badge]: https://img.shields.io/badge/armhf-yes-green.svg
 [armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
 [i386-badge]: https://img.shields.io/badge/i386-yes-green.svg
-
 [repository-badge]: https://img.shields.io/badge/Add-repository-41BDF5?logo=home-assistant&style=for-the-badge
-[repository-url]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A//github.com/Poeschl-HomeAssistant-Addons/repository
-
+[repository-url]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FJakeRoxs%2Fgit-exporter
 [install-badge]: https://img.shields.io/badge/Install%20on-Home%20Assistant-41BDF5?logo=home-assistant&style=for-the-badge
 [install-url]: https://my.home-assistant.io/redirect/supervisor_addon?addon=68413af6_git-exporter
-
 [donation-badge]: https://img.shields.io/badge/Buy%20me%20a%20coffee-%23d32f2f?logo=buy-me-a-coffee&style=for-the-badge&logoColor=white
 [donation-url]: https://www.buymeacoffee.com/Poeschl
-
